@@ -1,0 +1,180 @@
+/* login.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 9px 9px 16px #bebebe, inset -9px -9px 16px #ffffff;
+    background: #e0e0e0;
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 6px 6px 10px #bebebe, -6px -6px 10px #ffffff;
+}
+
+p {
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* login.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 12px;
+    box-shadow: inset 9px 9px 16px #bebebe, inset -9px -9px 16px #ffffff;
+    background: #e0e0e0;
+    color: #333;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 9px 9px 16px #bebebe, -9px -9px 16px #ffffff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 6px 6px 10px #bebebe, -6px -6px 10px #ffffff;
+}
+
+p {
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}

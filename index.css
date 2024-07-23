@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e0e5ec, #f0f4f8);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -8px -8px 15px rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #f0f4f8;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgba(255, 255, 255, 0.9);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    background: #ffffff;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2), inset -3px -3px 6px rgba(255, 255, 255, 0.8);
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+td {
+    background-color: #f8f9fa;
+}
+
+.logout {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.logout a {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.logout a:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
